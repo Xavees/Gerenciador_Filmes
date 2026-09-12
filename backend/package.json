@@ -5,6 +5,8 @@
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "tsc",
+    "start": "node dist/src/app.js",
     "dev": "tsx watch src/app.ts"
   },
   "keywords": [],
@@ -13,6 +15,7 @@
   "type": "commonjs",
   "dependencies": {
     "config": "^5.0.1",
+    "cors": "^2.8.6",
     "dotenv": "^17.4.2",
     "express": "^5.2.1",
     "express-validator": "^7.3.2",
@@ -22,6 +25,7 @@
   },
   "devDependencies": {
     "@types/config": "^3.3.5",
+    "@types/cors": "^2.8.19",
     "@types/express": "^5.0.6",
     "@types/mongoose": "^5.11.96",
     "@types/morgan": "^1.9.10",
