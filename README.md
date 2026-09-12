@@ -1,5 +1,3 @@
-
-````markdown
 # 🎬 Movies REST API
 
 API REST desenvolvida com **Node.js, Express, TypeScript e MongoDB** para praticar conceitos de desenvolvimento Back-end, comunicação HTTP, arquitetura de APIs e operações CRUD.
