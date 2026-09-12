@@ -243,10 +243,3 @@ O foco principal foi compreender o fluxo completo de uma requisição, desde sua
 **Luis Fernando Almeida**
 
 GitHub: **Xavees**
-
-```
-
-Esse README é legal pro seu GitHub justamente porque não tenta vender o projeto como um sistema gigantesco. Ele deixa claro que é um **projeto de estudo**, mas mostra a quantidade de conceito de backend que você aplicou nele.
-
-E o trecho do fluxo `Postman → Router → Middleware → Controller → Mongoose → MongoDB` é especialmente bom, porque resume exatamente **o que você acabou de aprender nesse projeto**. 🧠🔥 
-```
