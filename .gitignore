@@ -1,0 +1,27 @@
+# Dependências
+node_modules/
+
+# Variáveis de ambiente / dados sensíveis
+.env
+.env.local
+.env.*.local
+
+# Build do TypeScript
+dist/
+build/
+
+# Logs
+logs/
+*.log
+npm-debug.log*
+
+# Arquivos do sistema
+.DS_Store
+Thumbs.db
+
+# Editor
+.vscode/
+.idea/
+
+# Cache
+*.tsbuildinfo
