@@ -1,0 +1,28 @@
+# Dependencies
+node_modules
+npm-debug.log*
+
+# Build outputs and cache
+dist
+build
+*.tsbuildinfo
+
+# Git
+.git
+.gitignore
+
+# Environment files and sensitive data
+.env
+.env.*
+*.local
+
+# System and IDE
+.DS_Store
+Thumbs.db
+.vscode
+.idea
+
+# Documentation and Docker files
+README.md
+Dockerfile*
+.dockerignore
