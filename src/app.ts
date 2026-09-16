@@ -1,5 +1,4 @@
 import express from "express";
-import cors from "cors";
 import config from "config";
 import router from "./router";
 import db from "../config/db";
@@ -8,8 +7,8 @@ import morganMiddleware from "./middleware/morganMiddleware";
 const app = express();
 
 
-// CORS & JSON Middleware
-app.use(cors());
+// JSON Middleware
+
 app.use(express.json());
 
 
